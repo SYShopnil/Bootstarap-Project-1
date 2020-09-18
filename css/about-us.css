@@ -1,0 +1,149 @@
+/**************?Nav bar and Content Part******/
+.headerWrapper .navContentWrap-aboutUs {
+	background: linear-gradient(
+			180deg,
+			rgba(13, 35, 63, 0.7903536414565826) 61%,
+			rgba(13, 35, 63, 0.8463760504201681) 85%
+		),
+		url(../img/about-us/banner.jpg);
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 60vh;
+}
+/*******Navbar Part*****/
+.navbar-nav .nav-item .link-aboutUS {
+	color: seashell !important;
+}
+.navbar-nav .nav-item .link-aboutUS:hover {
+	color: #f7ac06 !important;
+}
+.navContentWrap .navWrapperHome.navbar-fixed {
+	background: #0d233f !important;
+}
+.headerWrapper
+	.navContentWrap-aboutUs
+	.headerContentWrapper-aboutUS
+	.titleAboutUs
+	h1 {
+	color: #fff !important;
+	font-size: 45px !important;
+	font-family: "rubikMedium" !important;
+	font-weight: 800 !important;
+}
+.headerWrapper
+	.navContentWrap-aboutUs
+	.headerContentWrapper-aboutUS
+	.breadCrumb-Wrap
+	a {
+	text-decoration: none !important;
+	font-size: 15px;
+	color: #fff;
+}
+.headerWrapper
+	.navContentWrap-aboutUs
+	.headerContentWrapper-aboutUS
+	.breadCrumb-Wrap {
+	color: #fff;
+}
+/***********?wellcome-to-institute strat**********/
+.wellcome-to-institute-container-fluid {
+	padding-top: 8% !important;
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.left-side {
+	z-index: 2;
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.rightSide-wrap {
+	border: 10px solid #f9f9ff !important;
+	position: relative;
+	margin-left: -8%;
+	z-index: 1;
+	padding: 25px !important;
+	padding-left: 8% !important;
+	/*padding-top: 4% !important;*/
+	margin-top: -3% !important;
+	margin-bottom: -3% !important;
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.rightSide-wrap
+	.btnWrap {
+	/*padding-top: 5% !important;*/
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.rightSide-wrap
+	h3 {
+	color: #002347;
+	font-size: 30px;
+	font-family: "rubikMedium" !important;
+	padding-bottom: 2% !important;
+	font-weight: 700 !important;
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.rightSide-wrap
+	.para1 {
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.rightSide-wrap
+	p {
+	color: #7b838a !important;
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.rightSide-wrap
+	.btnWrap {
+	padding-top: 3%;
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.rightSide-wrap
+	.btnWrap
+	.btn {
+	padding-top: 3% !important;
+	padding-bottom: 3% !important;
+	color: #002347 !important;
+	background: #f7ac06 !important;
+	font-weight: 600 !important;
+	z-index: 1;
+	-webkit-transition: all 0.5s ease !important;
+	-moz-transition: all 0.5s ease !important;
+	-ms-transition: all 0.5s ease !important;
+	-o-transition: all 0.5s ease !important;
+	transition: all 0.5s ease !important;
+}
+.wellcome-to-institute-container-fluid
+	.wellcome-to-institute-container
+	.wellcome-to-institute-wrap
+	.rightSide-wrap
+	.btnWrap
+	.btn:hover {
+	background: #002347 !important;
+	color: #f7ac06 !important;
+}
+/*************?Awesome Feature part start******/
+
+/*****Heder****/
+.awsomeFeatureWrap-abouUs {
+	background: #0d233f !important;
+	padding-bottom: 80px !important;
+}
+.awsomeFeatureWrap-abouUs .headerWrap h2 {
+	color: #fff !important;
+}
