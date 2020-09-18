@@ -1,0 +1,146 @@
+/*********?Upcomming Event par******/
+@media (min-width: 768px) and (max-width: 991px) {
+	.eventContainer .row .columnPart .imgwrap .imagepart img {
+		width: 100%;
+	}
+}
+
+/********?Navbar Part*******/
+@media (max-width: 767px) {
+	.navbar-nav .nav-item .nav-link {
+		font: bold 15px/24px rubikMedium !important;
+	}
+	.navbar {
+		background: #868686 !important;
+		z-index: 1;
+	}
+	.navbar-nav {
+		margin-right: 0 !important;
+	}
+	.navbar-nav .nav-item {
+		border-bottom: 1px solid #ededed33;
+	}
+	.dropdown-menu {
+		border-radius: 0 !important;
+	}
+	.navbar-nav .nav-item .nav-link {
+		color: #ffffff;
+		padding-top: 4% !important;
+	}
+	.navContentWrap .navWrapperHome.navbar-fixed {
+		background: none !important;
+		z-index: 99999999;
+	}
+	.navContentWrap .navWrapperHome.navbar-fixed.navbar {
+		background: #868686 !important;
+		z-index: 9999999999;
+		padding: 3% !important;
+		padding-bottom: 3% !important;
+	}
+	.navContentWrap .navWrapperHome {
+		padding: 5% !important;
+	}
+	.navWrapperHome.navbar-fixed .navbar .container .navbar-collapse ul li a {
+		font: 500 14px / 25px rubikMedium !important;
+	}
+}
+/**********?Hide the toggle part****/
+@media (min-width: 768px) {
+	#toogle-button-Picker {
+		display: none !important;
+	}
+}
+
+@media (max-width: 991px) {
+	/******?Register part*****/
+	.registerNow-wrapper .innerWrapper .row .left-wrap .contentWrap-of-left {
+		padding-bottom: 25%;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.fotter-top-eachPart .form-inline .form-control {
+		margin-left: -7px !important;
+	}
+}
+@media (max-width: 681px) {
+	.headerContentWrapper .contentPart .header-content-button {
+	}
+
+	.header-content-button .btn {
+		padding-top: 3px !important;
+		padding-bottom: 6px !important;
+	}
+	.clientOpinionFullWrap .container .clientOpinionHeader h2,
+	.eventContainer .eventHeader .row .columnEvent h2,
+	.ExperTrainerWerapper .ExperTrainerInner .row .headerWrap-expertTrainer h1,
+	.awsomeFeatureWrap .featurContainer .headerWrap h2,
+	.populerCourseWrap
+		.populerCourseWrap-container
+		.headerWrap
+		.headerContent
+		h3 {
+		font-size: 30px;
+	}
+	.clientOpinionFullWrap .container .clientOpinionHeader p,
+	.eventContainer .eventHeader .row .columnEvent p,
+	.ExperTrainerWerapper .ExperTrainerInner .row .headerWrap-expertTrainer p,
+	.populerCourseWrap .populerCourseWrap-container .headerWrap .headerContent p,
+	.awsomeFeatureWrap .featurContainer .headerWrap p {
+		font-size: 14px;
+	}
+}
+/*********?Top header title part***/
+
+/****For android and tablet***/
+@media (max-width: 767px) and (min-width: 500px) {
+	.headerWrapper
+		.navContentWrap-aboutUs
+		.headerContentWrapper-aboutUS
+		.titleAboutUs
+		h1 {
+		font-size: 40px !important;
+	}
+	.headerWrapper
+		.navContentWrap-aboutUs
+		.headerContentWrapper-aboutUS
+		.breadCrumb-Wrap
+		a {
+		font-size: 14px !important;
+	}
+	.headerContentWrapper h2 {
+		color: #002347 !important;
+	}
+	.headerContentWrapper p {
+		font-size: 15px !important;
+	}
+	.header-content-button .btn {
+		font-size: 11px !important;
+	}
+}
+/****For small mobile****/
+@media (max-width: 499px) {
+	.headerWrapper
+		.navContentWrap-aboutUs
+		.headerContentWrapper-aboutUS
+		.titleAboutUs
+		h1 {
+		font-size: 35px !important;
+	}
+	.headerWrapper
+		.navContentWrap-aboutUs
+		.headerContentWrapper-aboutUS
+		.breadCrumb-Wrap
+		a {
+		font-size: 11px !important;
+	}
+	.headerContentWrapper p {
+		font-size: 11px !important;
+	}
+	.headerContentWrapper h2 {
+		font-size: 30px !important;
+	}
+	.header-content-button .btn {
+		font-weight: 600;
+		font-size: 11px;
+	}
+}

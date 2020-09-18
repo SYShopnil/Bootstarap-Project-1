@@ -1,0 +1,166 @@
+.form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #ced4da !important;
+	outline: 0;
+	box-shadow: none !important;
+}
+/************?Map and Form part strart*****/
+.mapAndFormContianer {
+	padding-top: 10% !important;
+	padding-bottom: 10% !important;
+}
+/******Image part*****/
+.mapAndFormContianer .container .row .mapImgPart {
+	padding-bottom: 10% !important;
+
+	font-size: 16px;
+	line-height: 24px;
+	color: "Roboto", sans-serif;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color: #002347;
+	font-size: 16px;
+	line-height: 24px;
+	color: "Roboto", sans-serif;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color: #002347;
+}
+/********Adress part start******/
+
+/*****All element****/
+.mapAndFormContianer
+	.container
+	.row
+	.col-12
+	.row
+	.addressWrap-ContactPart
+	.all-element {
+	margin-bottom: 5% !important;
+}
+.mapAndFormContianer .container .row .col-12 .row .addressWrap-ContactPart i {
+	font-size: 16px;
+	line-height: 24px;
+	color: "Roboto", sans-serif;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color: #002347;
+	padding-right: 3% !important;
+}
+
+.mapAndFormContianer
+	.container
+	.row
+	.col-12
+	.row
+	.addressWrap-ContactPart
+	.all-element
+	.h5 {
+	font-family: "rubikMedium";
+	font-size: 21px;
+	line-height: 24px;
+	color: "Roboto", sans-serif;
+	font-weight: 900;
+	margin-bottom: 0px;
+	color: #002347;
+}
+.mapAndFormContianer
+	.container
+	.row
+	.col-12
+	.row
+	.addressWrap-ContactPart
+	.all-element
+	.subtitle {
+	font-size: 14px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #7b838a;
+	padding-left: 10% !important;
+}
+/******Form part***/
+.mapAndFormContianer
+	.container
+	.row
+	.col-12
+	.row
+	.col-lg-8
+	.form
+	.row
+	.col-lg-6
+	.formGroup-ofContact
+	.form-control {
+	border-radius: 0 !important;
+	color: #7b838a !important ;
+	resize: none !important;
+}
+.mapAndFormContianer
+	.container
+	.row
+	.col-12
+	.row
+	.col-lg-8
+	.form
+	.row
+	.col-lg-6
+	.formGroup-ofContact
+	.form-control::placeholder {
+	font-size: 80% !important;
+}
+/*****Submit Button part***/
+.mapAndFormContianer
+	.container
+	.row
+	.col-12
+	.row
+	.col-lg-8
+	.form
+	.row
+	.col-lg-12
+	.btn-group
+	.submitButton-ContactPart {
+	background: #fdc632;
+	padding: 0px 48px;
+	color: #002347;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 50px;
+	border-radius: 5px;
+	outline: none !important;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transition: all 0.5s ease !important;
+	-moz-transition: all 0.5s ease !important;
+	-ms-transition: all 0.5s ease !important;
+	-o-transition: all 0.5s ease !important;
+	transition: all 0.5s ease !important;
+	border-color: none !important;
+}
+.mapAndFormContianer
+	.container
+	.row
+	.col-12
+	.row
+	.col-lg-8
+	.form
+	.row
+	.col-lg-12
+	.btn-group
+	.submitButton-ContactPart:hover {
+	color: #fdc632;
+	background: #002347;
+}
+.mapAndFormContianer
+	.container
+	.row
+	.col-12
+	.row
+	.col-lg-8
+	.form
+	.row
+	.col-lg-12
+	.btn-group
+	.submitButton-ContactPart:focus {
+	box-shadow: none !important;
+}

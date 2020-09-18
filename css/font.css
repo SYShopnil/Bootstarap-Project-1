@@ -1,0 +1,8 @@
+/*********Font Rubik Medium bold***/
+@font-face {
+	font-family: "rubikMedium";
+	src: url("../font/Rubik/Rubik-SemiBold.ttf") format("truetype"),
+		url("../font/Rubik/Rubik-SemiBold.eot") format("eot"),
+		url("../font/Rubik/Rubik-SemiBold.svg#rubikMedium") format("svg"),
+		url("../font/Rubik/Rubik-SemiBold.woff") format("woff");
+}
